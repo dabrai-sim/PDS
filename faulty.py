@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.preprocessing import MinMaxScaler
 
-df = pd.read_csv(r"G:\Users\dabra\downloads\predictive_maintenance.csv")
+df = pd.read_csv(r"predictive_maintenance.csv")
 del df['UDI']
 del df['Type']
 del df['Product ID']
