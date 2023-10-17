@@ -5,7 +5,7 @@ import math,time
 noise = 1
 len_scale = 2.5
 
-df = pd.read_csv(r"G:\Users\dabra\downloads\air.csv")
+df = pd.read_csv(r"air.csv")
 def kernel_function(x1, x2, len_scale):
   dist_sq = np.linalg.norm(x1-x2)**2
   term = -1/(2*len_scale**2)
